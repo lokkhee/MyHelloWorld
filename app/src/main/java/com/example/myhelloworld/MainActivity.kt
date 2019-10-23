@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showMessage() {
         val textViewMessage : TextView = findViewById(R.id.textViewMessage)
-        textViewMessage.text = "Hello <your name here>"
+        //textViewMessage.text = "Hello <your name here>"
+        textViewMessage.text = getString(R.string.happy_birthday)
     }
 }
